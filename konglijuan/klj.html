@@ -11,6 +11,15 @@
 <li><a href="hua3.jpg" onclick="showPic(this);return false;">hua3</a></li>
 </ul>
 <img id="klj" src="klj.jpg" alt="my image gallery"/>
+<p id="klj">花花</p>
+<script type="text/javascript">
+function showPic(whichpic)
+{var source=whichpic.getAttribute("href");
+ var placeholder=document.getElementById("klj");
+ placeholder.setAttribute("src",source);
+ var text=whicpic.getAttribute("title");
+ var description=document.getElementById("description");
+ description.firstChild.nodeValue=text;}
 </body>
 </head>
 </html>
