@@ -1,3 +1,3 @@
 function popUp(winURL){
-  window.open(winURL,"popUp","width=800,height=600");
+  window.open(winURL,"popUp","width=600,height=600");
 }
