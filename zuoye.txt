@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>青岛国际啤酒节</title>
+<script src="scripts/modernizr-1.6.min,js"></script>
