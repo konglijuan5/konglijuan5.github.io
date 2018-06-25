@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.warning{
+	font-weight:bold;
+	color:#00F;
+	float: left;
+	clear: both;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #0F0;
+}
+a:active {
+	text-decoration: none;
+}
